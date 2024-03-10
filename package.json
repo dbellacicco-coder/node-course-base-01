@@ -1,0 +1,22 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "Node app about creating text file with math calculations",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Daniel Bellacicco",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
